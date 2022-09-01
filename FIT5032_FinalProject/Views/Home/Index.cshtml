@@ -1,0 +1,25 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Union Healthcare System</h1>
+    <p class="lead">The Union HealthCare System is aimed to provide healthcare services for patients. Also, healthcare services providers such as doctors or hospitals can manage their information of healthcare services on this web application.</p>
+    <p><a href="@Url.Action("Index", "Locations")" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Search Diseases</h2>
+
+        <p><a class="btn btn-default" href="@Url.Action("Index", "Diseases")">Learn more &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Give your feedback</h2>
+        <p><a class="btn btn-default" href="@Url.Action("Index", "Comments")">Learn more &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Request an appointment</h2>
+        <p><a class="btn btn-default" href="@Url.Action("Index", "Events")">Learn more &raquo;</a></p>
+    </div>
+</div>
